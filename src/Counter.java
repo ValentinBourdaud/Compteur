@@ -1,8 +1,12 @@
 
 public class Counter  {
 	
+	//Création variable state
+	
 	private int state;
 
+	//Initialisation variable state
+	
 	public Counter () {
 		this.state=0;
 		
@@ -21,6 +25,8 @@ public class Counter  {
 		
 	}
 	
+	//Comparaison des deux premiers compteurs
+	
 	public boolean equals(Counter counter) {
 		boolean eq= false;
 		if (counter.getValue()==this.getValue()) {
@@ -31,7 +37,7 @@ public class Counter  {
 		}
 
 		
-	
+	//Comparaison des trois compteurs
 
 	public boolean equals2(Counter counter, Counter counter2) {
 		boolean eq=false;

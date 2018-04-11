@@ -4,6 +4,8 @@ public class Main {
 	public static void main(String[] args) {
 		int j =10;
 		
+		//Création de l'objet counter
+		
 		Counter counter = new Counter();
 		System.out.println(counter.getValue());
 		
@@ -15,6 +17,9 @@ public class Main {
 		System.out.println(counter);
 		
 		int k = 10;
+		
+		//Création de l'objet counter2
+
 		
 		Counter counter2 = new Counter();
 		System.out.println(counter2.getValue());
@@ -29,6 +34,9 @@ public class Main {
 
 		int l=10;
 		
+		//Création de l'objet counter3
+
+		
 		Counter counter3 = new Counter();
 		System.out.println(counter3.getValue());
 		
@@ -38,6 +46,8 @@ public class Main {
 		}
 		
 		System.out.println(counter3);
+		
+		//Comparaison des 3 compteurs
 		
 		System.out.println(counter.equals2(counter2, counter3));
 
