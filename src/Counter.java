@@ -25,11 +25,20 @@ public class Counter  {
 		boolean eq= false;
 		if (counter.getValue()==this.getValue()) {
 			eq= true;
-		}
-		
+			;
+}
 		return eq;
+		}
+
 		
-		
+	
+
+	public boolean equals2(Counter counter, Counter counter2) {
+		boolean eq=false;
+		if (counter.getValue()==this.getValue() && counter.getValue()==this.getValue()) {
+			eq=true;
+			}
+		return eq;
 	}
-	}
+}
 

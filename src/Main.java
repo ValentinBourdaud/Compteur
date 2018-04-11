@@ -26,7 +26,20 @@ public class Main {
 		
 		System.out.println(counter2);
 		
-		System.out.println(counter.equals(counter2));
+
+		int l=10;
+		
+		Counter counter3 = new Counter();
+		System.out.println(counter3.getValue());
+		
+		for(int i=0;i<l;i++) {
+			counter3.inc();
+			System.out.println(counter3.getValue());
+		}
+		
+		System.out.println(counter3);
+		
+		System.out.println(counter.equals2(counter2, counter3));
 
 }
 }
