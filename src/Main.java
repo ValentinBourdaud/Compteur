@@ -50,6 +50,7 @@ public class Main {
 		//Comparaison des 3 compteurs
 		
 		System.out.println(counter.equals2(counter2, counter3));
+		System.out.println(Counter.getglobalCounter());
 
 }
 }

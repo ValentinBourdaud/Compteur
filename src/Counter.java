@@ -4,11 +4,20 @@ public class Counter  {
 	//Création variable state
 	
 	private int state;
+	
+	//Création de la variable statique globalCounter
+	
+	private static int globalCounter=-1;
+	
+	public static int getglobalCounter;
 
-	//Initialisation variable state
+	//Constructeur
 	
 	public Counter () {
 		this.state=0;
+		if(globalCounter==-1) {
+			globalCounter=0;
+		}
 		
 	}
 
@@ -18,6 +27,7 @@ public class Counter  {
 
 	public void inc() {
 		this.state++;
+		globalCounter++;
 	}
 	
 	public String toString(){
@@ -46,5 +56,12 @@ public class Counter  {
 			}
 		return eq;
 	}
+
+	public static int getglobalCounter() {
+		
+		return globalCounter;
+	}
+	
+	
 }
 
